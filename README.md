@@ -2,6 +2,9 @@
 
 The following webhook recipes are samples to highlight the capabilities of webhooks as a feature.  In most cases, these require some setup on the remote system (typically to enable API access).
 
+Webhooks can be configured here: https://www.workmarket.com/mmw/integration/webhooks
+
+
 | Dropbox              |                                                                         |
 |:----------------------|-------------------------------------------------------------------------|
 | Description          | Upload new files into a Dropbox folder rootFolder/[assignmentId]/[fileName].  **Note**: you must set up API access for your Dropbox account and get an access token. See here: https://www.dropbox.com/developers |
