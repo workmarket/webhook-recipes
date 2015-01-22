@@ -12,7 +12,7 @@ Webhooks can be configured here: https://www.workmarket.com/mmw/integration/webh
 | URL          | https://api-content.dropbox.com/1/files_put/auto/${client_name}/${assignment_id}/${file_name} | 
 | Method | PUT |
 | Headers | Authorization: Bearer [YOUR_DROPBOX_TOKEN] <br> Content-type: application/octet-stream |
-| Body | ${file_data_raw} |
+| Body | ${file_data} |
 
 
 | Dropbox (Delete)             |                                                                         |
